@@ -27,6 +27,9 @@ VALUES
 (3, 3, '11-23-2024', '14:00', 'Cardio'),
 (4, 2, '11-14-2024', '11:00', 'Recovery Exercises')
 ;
+UPDATE WorkoutSessions
+SET session_time = '15:00'
+WHERE member_id = 1;
 
 DELETE FROM WorkoutSessions
 WHERE member_id = 2;
