@@ -22,10 +22,10 @@ VALUES
 ;
 INSERT INTO WorkoutSessions (session_id, member_id, session_date, session_time, activity)
 VALUES
-(1, 1, '11-11-2024', '07:00 AM', 'Strength Training'),
-(2, 3, '11-22-2024', '13:00 PM', 'Swimming'),
-(3, 3, '11-23-2024', '14:00 PM', 'Cardio'),
-(4, 2, '11-14-2024', '11:00 AM', 'Recovery Exercises')
+(1, 1, '11-11-2024', '07:00', 'Strength Training'),
+(2, 3, '11-22-2024', '13:00', 'Swimming'),
+(3, 3, '11-23-2024', '14:00', 'Cardio'),
+(4, 2, '11-14-2024', '11:00', 'Recovery Exercises')
 ;
 
 DELETE FROM WorkoutSessions
